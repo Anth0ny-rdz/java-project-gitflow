@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-       
+
         Saludo saludo = new Saludo(); // Crear una instancia
         System.out.println("***************");
         System.out.println("* JAVA PROJECT *");

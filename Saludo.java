@@ -1,3 +1,4 @@
+ feature/saludo-multilingue
 public class Saludo {
     public String generarSaludo(String nombre, String idioma) {
         switch (idioma.toLowerCase()) {
@@ -8,7 +9,9 @@ public class Saludo {
             case "fr":
                 return "Bonjour, " + nombre + "!";
             default:
-                return "¡Hola, " + nombre + "!";
+                return "¡Hola, " + nombre + "!";=======
+
+ main
         }
     }
 }
