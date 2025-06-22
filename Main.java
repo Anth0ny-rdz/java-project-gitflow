@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("***************");
+        System.out.println("* JAVA PROJECT *");
+        System.out.println("***************");
         Saludo saludo = new Saludo(); // Crear una instancia
         System.out.println(saludo.generaSaludo("Mundo"));
         System.out.println("Version 1.0.0 lista para la produccion");
